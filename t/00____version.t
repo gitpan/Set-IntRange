@@ -12,7 +12,7 @@ use Set::IntRange;
 print "1..1\n";
 
 $n = 1;
-if ($Set::IntRange::VERSION eq "5.0")
+if ($Set::IntRange::VERSION eq "5.1")
 {print "ok $n\n";} else {print "not ok $n\n";}
 $n++;
 

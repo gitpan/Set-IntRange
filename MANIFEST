@@ -1,7 +1,7 @@
 IntRange.pm
 MANIFEST
 Makefile.PL
-README
+README.txt
 t/00____version.t
 t/01________new.t
 t/02_parameters.t

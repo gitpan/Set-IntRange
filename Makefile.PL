@@ -1,11 +1,29 @@
+#!perl -w
+
+###############################################################################
+##                                                                           ##
+##    Copyright (c) 1995 - 2002 by Steffen Beyer.                            ##
+##    All rights reserved.                                                   ##
+##                                                                           ##
+##    This package is free software; you can redistribute it                 ##
+##    and/or modify it under the same terms as Perl itself.                  ##
+##                                                                           ##
+###############################################################################
+
+use strict;
+
 use ExtUtils::MakeMaker;
-# See lib/ExtUtils/MakeMaker.pm for details of how to influence
-# the contents of the Makefile that is written.
-WriteMakefile(
+
+WriteMakefile
+(
     'NAME'		=> 'Set::IntRange',
     'VERSION_FROM'	=> 'IntRange.pm', # finds $VERSION
-    'LIBS'		=> [''],   # e.g., '-lm'
-    'DEFINE'		=> '',     # e.g., '-DHAVE_SOMETHING'
-    'INC'		=> '',     # e.g., '-I/usr/include/other'
+    'PREREQ_PM'         => { 'Bit::Vector' => 5.0 },
+#   ($] >= 5.005 ?
+#       ('ABSTRACT'     => 'Easy manipulation of sets of integers (arbitrary intervals)',
+#        'AUTHOR'       => 'Steffen Beyer (sb@engelschall.com)') : ()),
     'dist'		=> { COMPRESS=>"gzip -9", SUFFIX=>"gz" }
 );
+
+__END__
+

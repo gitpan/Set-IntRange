@@ -1,7 +1,13 @@
 
-#  Copyright (c) 1996, 1997 by Steffen Beyer. All rights reserved.
-#  This package is free software; you can redistribute it and/or
-#  modify it under the same terms as Perl itself.
+###############################################################################
+##                                                                           ##
+##    Copyright (c) 1995 - 2002 by Steffen Beyer.                            ##
+##    All rights reserved.                                                   ##
+##                                                                           ##
+##    This package is free software; you can redistribute it                 ##
+##    and/or modify it under the same terms as Perl itself.                  ##
+##                                                                           ##
+###############################################################################
 
 package Set::IntRange;
 
@@ -16,7 +22,7 @@ require Exporter;
 
 @EXPORT_OK = qw();
 
-$VERSION = '5.0';
+$VERSION = '5.1';
 
 use Carp;
 
@@ -1230,6 +1236,8 @@ __END__
 
 Set::IntRange - Sets of Integers
 
+=head2 PURPOSE
+
 Easy manipulation of sets of integers (arbitrary intervals)
 
 =head1 SYNOPSIS
@@ -1466,24 +1474,30 @@ See L<Bit::Vector(3)> for more details!
 
 =head1 SEE ALSO
 
-Bit::Vector(3), Set::IntegerFast(3), Math::MatrixBool(3),
-Math::MatrixReal(3), DFA::Kleene(3), Math::Kleene(3),
-Graph::Kruskal(3).
+Bit::Vector(3), Math::MatrixBool(3),
+Math::MatrixReal(3), DFA::Kleene(3),
+Math::Kleene(3), Graph::Kruskal(3).
 
 =head1 VERSION
 
-This man page documents "Set::IntRange" version 5.0.
+This man page documents "Set::IntRange" version 5.1.
 
 =head1 AUTHOR
 
-Steffen Beyer <sb@sdm.de>.
+Steffen Beyer <sb@engelschall.com>.
 
 =head1 COPYRIGHT
 
-Copyright (c) 1996, 1997 by Steffen Beyer. All rights reserved.
+Copyright (c) 1995 - 2002 by Steffen Beyer. All rights reserved.
 
 =head1 LICENSE
 
 This package is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself.
+
+=head1 DISCLAIMER
+
+This package is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
