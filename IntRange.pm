@@ -1,7 +1,7 @@
 
 ###############################################################################
 ##                                                                           ##
-##    Copyright (c) 1995 - 2002 by Steffen Beyer.                            ##
+##    Copyright (c) 1995 - 2009 by Steffen Beyer.                            ##
 ##    All rights reserved.                                                   ##
 ##                                                                           ##
 ##    This package is free software; you can redistribute it                 ##
@@ -22,11 +22,11 @@ require Exporter;
 
 @EXPORT_OK = qw();
 
-$VERSION = '5.1';
+$VERSION = '5.2';
 
 use Carp;
 
-use Bit::Vector 5.0;
+use Bit::Vector 7.1;
 
 use overload
       '""' => '_string',
@@ -1480,15 +1480,15 @@ Math::Kleene(3), Graph::Kruskal(3).
 
 =head1 VERSION
 
-This man page documents "Set::IntRange" version 5.1.
+This man page documents "Set::IntRange" version 5.2.
 
 =head1 AUTHOR
 
-Steffen Beyer <sb@engelschall.com>.
+Steffen Beyer <STBEY@cpan.org>.
 
 =head1 COPYRIGHT
 
-Copyright (c) 1995 - 2002 by Steffen Beyer. All rights reserved.
+Copyright (c) 1995 - 2009 by Steffen Beyer. All rights reserved.
 
 =head1 LICENSE
 

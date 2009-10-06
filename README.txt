@@ -1,9 +1,9 @@
                    ==========================================
-                       Module "Set::IntRange" Version 5.1
+                       Module "Set::IntRange" Version 5.2
                    ==========================================
                         for Perl version 5.000 and higher
 
-     Copyright (c) 1995 - 2002 by Steffen Beyer. All rights reserved.
+     Copyright (c) 1995 - 2009 by Steffen Beyer. All rights reserved.
      This package is free software; you can redistribute it and/or modify
      it under the same terms as Perl itself.
 
@@ -17,10 +17,11 @@ or from any CPAN (= "Comprehensive Perl Archive Network") mirror server:
                http://www.perl.com/CPAN/authors/id/S/ST/STBEY/
 
 
-What's new in version 5.1:
+What's new in version 5.2:
 --------------------------
 
- +  Added "'PREREQ_PM' => { 'Bit::Vector' => 5.0 }" to "Makefile.PL".
+ +  The problems with installing this module automatically
+    with CPAN have been fixed.
 
 
 Prerequisites:
@@ -65,6 +66,6 @@ Share and enjoy!
 
 Yours,
 --
-  Steffen Beyer <sb@engelschall.com> http://www.engelschall.com/u/sb/
+  Steffen Beyer <STBEY@cpan.org> http://www.engelschall.com/u/sb/
   "There is enough for the need of everyone in this world, but not
    for the greed of everyone." - Mohandas Karamchand "Mahatma" Gandhi

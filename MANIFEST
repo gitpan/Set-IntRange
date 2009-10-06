@@ -10,3 +10,4 @@ t/04_____string.t
 t/05_____resize.t
 t/06______empty.t
 t/07_overloaded.t
+META.yml                                 Module meta-data (added by MakeMaker)
